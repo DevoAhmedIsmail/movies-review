@@ -1,0 +1,27 @@
+nav {
+    background-color: var(--dark-color);
+}
+
+nav a.active,
+.sidebar a.active {
+    color: gold;
+}
+.sidebar a {
+    border-bottom: 3px solid #7c7c7c79;
+}
+.sidebar a.active {
+    border-color: gold;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: var(--dark-color);
+    transition: 600ms;
+    z-index: 9999;
+}
+
+.sidebar.show {
+    left: 0
+}

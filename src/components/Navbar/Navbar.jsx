@@ -28,7 +28,7 @@ const Navbar = () => {
             <img
               src={movieLogo}
               alt="movies logo"
-              className="w-80 md:w-80 lg:w-96 h-full"
+              className="w-64 md:w-80 lg:w-96 h-full"
             />
           </Link>
         </div>

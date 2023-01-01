@@ -22,7 +22,7 @@ const Header = () => {
             {" "}
             Puss in Boots: The Last Wish
           </p>
-          <p className="text-xl">
+          <p className="text-xl hidden lg:block">
             "Puss in Boots discovers that his passion for adventure has
             taken its toll: He has burned through eight of his nine lives,
             leaving him with only one life left. Puss sets out on an epic
@@ -51,7 +51,7 @@ const Header = () => {
             <p className="text-4xl font-semibold mb-3">
               Puss in Boots: The Last Wish
             </p>
-            <p className="text-xl block lg:hidden ">
+            <p className="text-xl hidden ">
               "Puss in Boots discovers that his passion for adventure has
               taken its toll: He has burned through eight of his nine lives,
               leaving him with only one life left. Puss sets out on an epic
@@ -79,7 +79,7 @@ const Header = () => {
               {" "}
               Puss in Boots: The Last Wish
             </p>
-            <p className="text-xl block lg:hidden">
+            <p className="text-xl hidden">
               "Puss in Boots discovers that his passion for adventure has
               taken its toll: He has burned through eight of his nine lives,
               leaving him with only one life left. Puss sets out on an epic
